@@ -28,6 +28,10 @@ nav .container .link ul li a:hover{color: #377dff;}
 /* navbar */
 /* part1 */
 .part1{ display: flex;
+    background-color: rgba(248, 248, 248, 0.973);}
+.sectionpart1{width: 70%;
+margin: auto;
+display: flex;
 background-image: url(../../img/12455.png);}
 form .button{position: relative;
     right: 5%;
