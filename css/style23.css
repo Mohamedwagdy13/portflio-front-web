@@ -1,0 +1,93 @@
+*{box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-size: 16px;}
+
+i{color: #377dff;}
+a{
+text-decoration: none;
+}
+.see{color: #377dff;
+}
+ul{list-style: none;}
+li{color: #71869d !important;
+}
+/* navbar */
+nav .container{display: flex;
+justify-content: space-between;
+padding: 12px;}
+nav .container .link ul{list-style: none; display: flex; justify-content: end; gap:35px;}
+nav .container .link ul li a{color: #677788;}
+nav .container .link ul li a:hover{color: #377dff;}
+/* navbar */
+/* part1 */
+.part1{ display: flex;
+background-image: url(../../img/12455.png);}
+form .button{position: relative;
+    right: 5%;
+}
+form .button i{color: white;}
+    /* part1 */
+    /* part2 */
+.part2{display: flex;
+    margin-top: 3rem;
+    background-image: url(../../img/3335.png);
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.part2 .section{display: flex;
+flex-direction: column;}
+.part2 .section .section1{ padding: 2rem;
+    border: solid 1px;
+    margin-left: 2rem;
+}
+.part2 .section .section1:hover{transform: scale(1.1);}
+.part2 .section .section1 img{width: 24px;
+    border-radius: 50%;
+    }
+.part2 .section .section2{
+    background-color: rgb(0, 0, 0);
+    }
+    /* .part2 .section .section1 .icon img {width: 40px;} */
+/* part2 */
+/* part3 */
+.card1{padding: 20px;}
+.card1 ul li a{color: #71869d}
+.card1 ul li i{color: #71869d}
+.card1 ul li a:hover{color: #377dff}
+/* part3 */
+/* footer */
+.footer{background-color: rgb(33 50 91);
+    opacity: 1;
+display: flex;
+color: white;
+justify-content: space-around;
+border-bottom: solid 1px;
+padding: 4rem;}
+.footer i{color: white;}
+.footer a{color: white;}
+.footer .Wearehiring{background-color: #dd7a09;
+color: brown;
+line-height:normal;
+border-radius: 30%;}
+/* footer */
+footer{background-color: rgb(33 50 91);
+    opacity: 1;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 2rem;
+}
+footer p{display: inline-block;
+text-align: center;}
+footer a{color: white;
+margin-left: 12px;}
+footer i{color: white;
+padding: 1px;}
+footer i:hover a{background-color: black;}
+.foot3{background-color:rgb(33 50 91);
+padding: 10px;}
+.paragraph{
+color: white;}
